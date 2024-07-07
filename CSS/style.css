@@ -1,0 +1,197 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+
+/* start home styling  */
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../media/bg.jpg);
+  background-position: center;
+  background-size: cover;
+   height: 100vh;
+}
+
+.home h1 {
+  font-size: 60px;
+}
+
+
+.my-container div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.menu {
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -182px;
+    z-index: 55555555555555;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    transition: all 150ms ease-in;
+}
+
+.menu i {
+    color: white;
+    cursor: pointer;
+    transition: all 150ms ease-in;
+}
+
+.menu a:hover , i:hover {
+    color: #DC5F00;
+}
+
+.side-menu {
+  cursor: pointer;
+  top: 300px;
+  left: 0px;
+}
+
+/* start singer section  */
+.singers-section {
+  padding: 50px 0px;
+  width: 80%;
+  
+  margin: auto;
+  flex-direction: column;
+  color: white;
+  
+}
+
+.singers-section img {
+  width: 300px;
+  display: inline;
+  height: 300px;
+}
+.singer-name {
+  background-color: black;
+  cursor: pointer;
+}
+
+.singers-section h2:first-of-type {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.singer-info {
+  background-color: #686d76;
+  display: none;
+}
+.singer-name,
+.singer-info {
+  margin-bottom: 0;
+  padding: 15px;
+  text-align: center;
+}
+/* end singer section  */
+
+/* start counter styling */
+.counter {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../media/sandGalss.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.counter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter .container div {
+  width: 22%;
+  height: 200px;
+}
+
+
+.counter .container div span {
+  font-size: 30px;
+}
+/* end counter styling */
+
+
+
+/* start contact styling  */
+.contact  {
+  background-image: linear-gradient(to right , rgba(128, 88, 88, 0.26), rgba(0, 0, 0, 0.6)),
+  url(../media/form-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+.contact .container {
+  padding: 10px;            
+  border-radius: 15px;
+  
+}
+.contact .contact-details {
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.contact .contact-details .social-links p span i {
+  color: #DC5F00;
+}
+.contact .contact-details .social-links p {
+  font-size: 14px;
+}
+.contact .contact-details .social-icons a {
+  color: #DC5F00 !important;
+  width: 40px;
+  height: 40px;
+  border-color: #DC5F00 !important;
+  font-size: 25px;
+  transition: 0.5s all;
+}
+
+.contact .contact-details .social-icons a:hover {
+  background-color: #DC5F00;
+  color: white !important;
+}
+
+.form-content .form-floating input:focus ,
+.form-content .form-floating textarea:focus {
+  box-shadow: 0px 0px 0px 2px #dc5f009d !important;
+  border-color: transparent;
+}
+
+.form-content button {
+  background-color: #DC5F00 !important;
+  color: white;
+  transition: 0.5s;
+  border-color: transparent !important;
+  font-weight: bold;
+}
+.form-content button:hover {
+  background-color: white !important;
+  color: #DC5F00;
+  border: 1px solid #DC5F00 !important;
+}
+
+.form-content  p span {
+  color: #DC5F00 ;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* end contact styling  */
